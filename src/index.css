@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  #root {
+    @apply w-full h-screen
+  }
+}
+
+@layer components {
+  .App {
+    @apply w-full h-screen
+  }
+}
